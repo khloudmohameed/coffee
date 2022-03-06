@@ -5,16 +5,12 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import 'typeface-quicksand'
 import "@fontsource/marcellus";
 import './index.css';
-import {BrowserRouter} from 'react-router-dom';
 
 ReactDOM.render(
 <>
-    <BrowserRouter>
     <App />
-  </BrowserRouter>
   </>
   ,
   document.getElementById('root')
