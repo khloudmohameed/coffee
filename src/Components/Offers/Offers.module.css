@@ -1,0 +1,23 @@
+.beforeH2 {
+    position: absolute;
+}
+.afterH2 {
+    position: relative;
+    top: 65px;
+    right: 50%;
+}
+
+.imgDim{
+   width: 189px;
+   height: 24px; 
+}
+
+a{
+    font-size: 24px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+a:hover{
+    color: #bf9e7b !important;
+}
